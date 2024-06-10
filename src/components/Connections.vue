@@ -115,7 +115,8 @@ export default {
  methods: {
   navigateToReportPage() {
       // Use the router's push method to navigate to the ReportPage component
-      this.$router.push('/report'); // Assuming '/report' is the route path for the ReportPage component
+      // this.$router.push('/report'); 
+      window.location.href = 'http://172.18.7.76:3000';
     },
   openReportPopup() {
       this.showReportPopup = true;

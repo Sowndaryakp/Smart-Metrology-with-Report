@@ -5,6 +5,7 @@
     "license": "MIT",
     "version": "1.0.0",
     "dependencies": {
+        "@ckeditor/ckeditor5-build-classic": "^41.4.2",
         "@quasar/extras": "^1.12.1",
         "axios": "^1.6.7",
         "dxf-parser": "^1.1.2",

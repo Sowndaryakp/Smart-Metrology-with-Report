@@ -1,0 +1,4 @@
+npm install --save @ckeditor/ckeditor5-vue @ckeditor/ckeditor5-build-full --force
+npm install --save @ckeditor/ckeditor5-vue @ckeditor/ckeditor5-build-classic     
+ npm install --save @ckeditor/ckeditor5-build-decoupled-document          
+        npm install --save @onlyoffice/document-editor-vue                                             
