@@ -1,0 +1,48 @@
+{
+    "name": "dxf-viewer-example",
+    "description": "Example of dxf-viewer package application",
+    "repository": "https://github.com/vagran/dxf-viewer-example",
+    "license": "MIT",
+    "version": "1.0.0",
+    "dependencies": {
+        "@quasar/extras": "^1.12.1",
+        "axios": "^1.6.7",
+        "dxf-parser": "^1.1.2",
+        "dxf-viewer": "^1.0.29",
+        "html2pdf": "^0.0.11",
+        "html2pdf.js": "^0.10.1",
+        "jspdf": "^2.5.1",
+        "jspdf-autotable": "^3.8.2",
+        "panzoom": "^9.4.3",
+        "pdf-lib": "^1.17.1",
+        "pdfjs-dist": "^4.0.379",
+        "quasar": "^1.16.0",
+        "react-icons": "^5.0.1",
+        "three": "^0.150.1",
+        "vue": "^2.7.16",
+        "vue-panzoom": "^1.1.6",
+        "vue-router": "^3.6.5",
+        "xlsx": "^0.18.5"
+    },
+    "scripts": {
+        "serve": "vue-cli-service serve --port 9001",
+        "build": "vue-cli-service build --modern"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^4.5.15",
+        "@vue/cli-service": "^4.5.15",
+        "@vue/compiler-dom": "^3.2.41",
+        "less": "^4.1.2",
+        "less-loader": "^7.3.0",
+        "vue-template-compiler": "^2.6.14",
+        "worker-loader": "^3.0.8"
+    },
+    "keywords": [
+        "dxf",
+        "viewer",
+        "javascript",
+        "webgl",
+        "html5",
+        "example"
+    ]
+}
